@@ -1,0 +1,296 @@
+{
+  "_about": [
+    "Images supplied by the project owner (folder: C:/PAKISATAN WEB/remaining project pics), reviewed one by one on 4 Oct 2026.",
+    "Same fields as MASTER_IMAGE_MANIFEST.csv; merged by scripts/import-archive.mjs. `original` is the owner's file, copied (never modified) into assets-src/archive/ under `filename`.",
+    "Most are agency photographs at preview size (612 px wide, the Getty Images / AFP comp size). Their licence is the owner's to confirm: they are marked OWNER SUPPLIED, credited as not recorded, and should be swapped for the licensed full-resolution files before public release.",
+    "Captions say only what the picture itself shows. Where the date or place is not visible or recorded, it says so.",
+    "Rejected (not imported): 'mangla dam 2' (a mountain lake with pine forest — not Mangla), 'pakistan dam' (AFP 2025 infographic of Indian dams — not Mangla), 'US IRAN Peace talk' (a composite thumbnail; it shows President Raisi, who died in May 2024, so it cannot depict the 2026 talks), 'nuclear test 2' (a Shaheen missile on parade — not the Chagai tests), 'UN LOGO' (an emblem graphic, not a record).",
+    "Added at the owner's explicit request on 5 Oct 2026, with their caveats in the record: the two hockey photographs (first and second World Cup frames; matches not identified), the Zia tribute collage (quotation not verified) and the aircraft-wreckage photograph (not confirmed as the 1988 crash).",
+    "Held in the archive but kept out of the film (VERIFY): 'mangla dam' (spillway not identifiable as Mangla) and 'nuclear test mountain' (location not identifiable as Chagai).",
+    "Not yet placed, waiting for the owner: 'HOUSING PROGRAM' (a Punjab government event and a road-works publicity graphic) and 'PK TURK SAUDI DEFENSE' (no such section on the timeline)."
+  ],
+  "records": [
+    {
+      "event_id": "E53", "year": "2024", "date": "2024 (Paris Olympics)",
+      "original": "Arshad Nadeem/Arshad Nadeem gold medal.jpeg",
+      "filename": "owner_2024_arshad_nadeem_gold_medal.jpg",
+      "image_type": "A — HERO",
+      "description": "Arshad Nadeem holds up his Olympic gold medal for the men's javelin, Paris 2024.",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E53", "year": "2024", "date": "2024-08-08",
+      "original": "Arshad Nadeem/Arshad Nadeem 4.jpeg",
+      "filename": "owner_2024_arshad_nadeem_final_throw_prostration.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Arshad Nadeem kneels in prostration on the track; the board behind him reads NADEEM A · PAK · 1 · attempt 6 · 91.79 (the javelin final, 8 August 2024).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E53", "year": "2024", "date": "2024 (Paris Olympics)",
+      "original": "Arshad Nadeem/Arshad Nadeem Gold Medal 2.jpeg",
+      "filename": "owner_2024_arshad_nadeem_throw.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Arshad Nadeem draws back the javelin; his bib reads PARIS 2024 · NADEEM.",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E53", "year": "2024", "date": "2024 (Paris Olympics)",
+      "original": "Arshad Nadeem/Arshad Nadeem 3.jpeg",
+      "filename": "owner_2024_javelin_medal_podium.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Men's javelin medal podium, Paris 2024: Neeraj Chopra (India, silver), Arshad Nadeem (Pakistan, gold) and Anderson Peters (Grenada, bronze).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E33", "year": "1992", "date": "1992-03-25",
+      "original": "Imran khan/imran khan world cup 3.jpeg",
+      "filename": "owner_1992_imran_khan_lifts_world_cup_mcg.jpg",
+      "image_type": "A — HERO",
+      "description": "Imran Khan raises the World Cup trophy on the field at the Melbourne Cricket Ground after the final, 25 March 1992.",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E33", "year": "1992", "date": "1992-03-25",
+      "original": "Imran khan/imran khan world cup 2.jpeg",
+      "filename": "owner_1992_imran_khan_carried_by_team_mcg.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Imran Khan is carried by his team-mates after the World Cup final in Melbourne, 25 March 1992.",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E33", "year": "1992", "date": "1992 (date not recorded)",
+      "original": "Imran khan/imran khan wrld cup 1.jpeg",
+      "filename": "owner_1992_imran_khan_with_trophy_portrait.jpg",
+      "image_type": "E — CONTEXT",
+      "description": "Imran Khan with the 1992 World Cup trophy, a posed portrait outdoors (date and place not recorded).",
+      "historical_authenticity": "ORIGINAL PHOTOGRAPH"
+    },
+    {
+      "event_id": "E31", "year": "1988", "date": "Date not recorded",
+      "original": "benazir/Benazir Bhutto.jpeg",
+      "filename": "owner_benazir_bhutto_portrait_interior.jpg",
+      "image_type": "A — HERO",
+      "description": "Benazir Bhutto at a desk beneath a portrait of Zulfikar Ali Bhutto, a PPP flag beside her (date not recorded).",
+      "historical_authenticity": "ORIGINAL PHOTOGRAPH"
+    },
+    {
+      "event_id": "E31", "year": "1988", "date": "Date not recorded",
+      "original": "benazir/benazir Bhutto 2.jpeg",
+      "filename": "owner_benazir_bhutto_rally_vehicle.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Benazir Bhutto rides through a crowd from the roof hatch of a vehicle, a PPP flag above (date and place not recorded).",
+      "historical_authenticity": "ORIGINAL PHOTOGRAPH"
+    },
+    {
+      "event_id": "E32", "year": "1990", "date": "Date not recorded",
+      "original": "nawaz shareef/Nawaz Shareef.jpeg",
+      "filename": "owner_nawaz_sharif_rally_car.jpg",
+      "image_type": "A — HERO",
+      "description": "Nawaz Sharif waves to supporters from the sunroof of a car; stickers on the windscreen read I LOVE NAWAZ SHARIF (date and place not recorded).",
+      "historical_authenticity": "ORIGINAL PHOTOGRAPH"
+    },
+    {
+      "event_id": "E32", "year": "1990", "date": "Date not recorded",
+      "original": "nawaz shareef/Nawaz Shareef 2.jpeg",
+      "filename": "owner_nawaz_sharif_waves_from_car.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Nawaz Sharif waves from the sunroof of a car moving through a crowd (date and place not recorded).",
+      "historical_authenticity": "ORIGINAL PHOTOGRAPH"
+    },
+    {
+      "event_id": "E50", "year": "2021", "date": "2020–2021 (date not recorded)",
+      "original": "covid 19/Covid 19 1.jpeg",
+      "filename": "owner_2021_covid_vaccination_schoolgirls.jpg",
+      "image_type": "A — HERO",
+      "description": "Schoolgirls in uniform receive COVID-19 vaccinations in a classroom (date and city not recorded).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E50", "year": "2020", "date": "2020–2021 (date not recorded)",
+      "original": "covid 19/Covid 19 2.jpeg",
+      "filename": "owner_2020_covid_school_temperature_check.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Masked schoolchildren queue for a temperature check at a school gate (date and city not recorded).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E50", "year": "2020", "date": "2020 (date not recorded)",
+      "original": "covid 19/Covid 19.jpeg",
+      "filename": "owner_2020_covid_lockdown_checkpoint.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Personnel in protective suits and a soldier at a street barrier during the lockdown (date and city not recorded).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E50", "year": "2021", "date": "2021 (date not recorded)",
+      "original": "covid 19/Covid 19 3.jpeg",
+      "filename": "owner_2021_covid_vaccine_dose.jpg",
+      "image_type": "E — CONTEXT",
+      "description": "A health worker draws a vaccine dose at a vaccination centre (date and city not recorded).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E49", "year": "2020", "date": "Date not recorded",
+      "original": "orange line train/orange line train.jpeg",
+      "filename": "owner_orange_line_train_viaduct_lahore.jpg",
+      "image_type": "A — HERO",
+      "description": "An Orange Line Metro train on the elevated viaduct through Lahore in winter haze (date not recorded).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E49", "year": "2020", "date": "Date not recorded",
+      "original": "orange line train/orange line train 2.jpeg",
+      "filename": "owner_orange_line_station_gates.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Ticket gates inside an Orange Line Metro station, Lahore; passengers wear masks (date not recorded).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E03", "year": "1948", "date": "1948-09-12",
+      "original": "jinnah death/jinnah death.jpeg",
+      "filename": "owner_1948_newspaper_mr_jinnah_dead.jpg",
+      "image_type": "C — NEWSPAPER",
+      "description": "Newspaper front page: MR JINNAH DEAD — Sudden heart attack — Funeral today at 3 p.m. in Karachi. The report gives his death at 10.25 p.m. on Saturday, 11 September (title of the newspaper not visible in the clipping).",
+      "historical_authenticity": "ORIGINAL HISTORICAL NEWSPAPER"
+    },
+    {
+      "event_id": "E36", "year": "1998", "date": "1998-05-29",
+      "original": "jinnah death/doc.jpeg",
+      "filename": "owner_1998_dawn_pakistan_opts_to_go_nuclear.jpg",
+      "image_type": "C — NEWSPAPER",
+      "description": "Dawn (Karachi), front page, 29 May 1998: Pakistan opts to go nuclear — Account evened with India, says PM. (Supplied in the 'jinnah death' folder; it belongs to the Chagai tests.)",
+      "historical_authenticity": "ORIGINAL HISTORICAL NEWSPAPER"
+    },
+    {
+      "event_id": "E36", "year": "1998", "date": "Date not recorded",
+      "original": "nuclear test/nuclear test 1.jpeg",
+      "filename": "owner_1998_aq_khan_rose_petals.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Dr Abdul Qadeer Khan is showered with rose petals by a crowd of well-wishers (date and place not recorded).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E30", "year": "1988", "date": "1988-08-18",
+      "original": "zia ul haq death/zia ul haq die 2.jpeg",
+      "filename": "owner_1988_dawn_zia_dies_in_plane_crash.jpg",
+      "image_type": "C — NEWSPAPER",
+      "description": "Dawn, front page, 18 August 1988: Zia dies in plane crash — US envoy, Gen. Akhtar among dead — Ishaq takes over as President — 10-day mourning declared — Inquiry ordered.",
+      "historical_authenticity": "ORIGINAL HISTORICAL NEWSPAPER"
+    },
+    {
+      "event_id": "E55", "year": "2026", "date": "Date not recorded",
+      "original": "Peace talk/Peace talk 2.jpeg",
+      "filename": "owner_2026_asim_munir_ghalibaf_tehran.jpg",
+      "image_type": "A — HERO",
+      "description": "Field Marshal Asim Munir shakes hands with Mohammad Bagher Ghalibaf, Speaker of Iran's parliament, in Tehran, with Pakistani and Iranian flags (date not recorded).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E55", "year": "2026", "date": "2026 (date not recorded)",
+      "original": "Peace talk/Peace talk doc.jpeg",
+      "filename": "owner_2026_newspaper_us_iran_war_pakistans_role.jpg",
+      "image_type": "C — NEWSPAPER",
+      "description": "Newspaper feature page: The US-Iran war and Pakistan's role (title of the newspaper not visible; captions refer to April 2026).",
+      "historical_authenticity": "ORIGINAL NEWSPAPER (FEATURE PAGE)"
+    },
+    {
+      "event_id": "E17", "year": "1971", "date": "Not identified",
+      "original": "hockey world cup/hockey world cup 1.jpeg",
+      "filename": "owner_hockey_pakistan_india_match_unidentified.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Pakistan (dark shirts) and India contest the ball in front of a stadium pavilion; a photograph of a print. Placed with the first World Cup at the owner's request; match, venue and year not identified.",
+      "historical_authenticity": "HISTORICAL PHOTOGRAPH (MATCH UNIDENTIFIED)"
+    },
+    {
+      "event_id": "E24", "year": "1978", "date": "Not identified",
+      "original": "hockey world cup/hockey world cup 2.jpeg",
+      "filename": "owner_hockey_pakistan_match_unidentified.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Pakistan players in a goalmouth scramble before a stadium crowd. Placed with the 1978 World Cup at the owner's request; match, venue and year not identified.",
+      "historical_authenticity": "HISTORICAL PHOTOGRAPH (MATCH UNIDENTIFIED)"
+    },
+    {
+      "event_id": "E14", "year": "1967", "date": "Date not recorded",
+      "original": "mangla dam/MANGLA DAM 3.jpg",
+      "filename": "owner_mangla_dam_spillway_gates.jpg",
+      "image_type": "A — HERO",
+      "description": "Water released through the gated spillway of Mangla Dam, the reservoir behind (supplied by the owner as Mangla; date not recorded).",
+      "historical_authenticity": "MODERN PHOTOGRAPH"
+    },
+    {
+      "event_id": "E14", "year": "1967", "date": "Not identified",
+      "original": "mangla dam/mangla dam.jpeg",
+      "filename": "owner_dam_spillway_unidentified.jpg",
+      "image_type": "E — CONTEXT",
+      "description": "A dam discharging through its spillway into a gorge. Not identifiable as Mangla from the picture; dam and date not recorded.",
+      "historical_authenticity": "MODERN PHOTOGRAPH (UNIDENTIFIED)",
+      "license_status": "VERIFY — dam not identified; source not recorded"
+    },
+    {
+      "event_id": "E30", "year": "1988", "date": "Date not recorded",
+      "original": "zia ul haq death/zia ul haq death.jpeg",
+      "filename": "owner_1988_zia_tribute_collage.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "A tribute collage, 'Bahawalpur Tragedy': a portrait of General Zia-ul-Haq, aircraft wreckage and his funeral procession, with a quotation attributed to him. Added at the owner's request; a later compilation (social media), and the quotation is not verified.",
+      "historical_authenticity": "TRIBUTE COLLAGE OF PHOTOGRAPHS — QUOTATION NOT VERIFIED"
+    },
+    {
+      "event_id": "E30", "year": "1988", "date": "Not identified",
+      "original": "zia ul haq death/zia ul haq die 3.jpeg",
+      "filename": "owner_1988_aircraft_wreckage_unconfirmed.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Aircraft wreckage with onlookers. Added at the owner's request; not confirmed as the C-130 crash of 17 August 1988 (source and date not recorded).",
+      "historical_authenticity": "PHOTOGRAPH (NOT CONFIRMED AS THE EVENT)"
+    },
+    {
+      "event_id": "E54", "year": "2024", "date": "Date not recorded",
+      "original": "Gwadar airport/Gwadar airport.jpg",
+      "filename": "owner_2024_new_gwadar_international_airport_terminal.jpg",
+      "image_type": "A — HERO",
+      "description": "The terminal of New Gwadar International Airport, its sign reading GWADAR INTERNATIONAL AIRPORT with the CAA emblem (date not recorded).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E58", "year": "2025", "date": "Date not recorded",
+      "original": "PRESIDENT OF UN/images2.jpg",
+      "filename": "owner_2025_unsc_chamber_vote.jpg",
+      "image_type": "A — HERO",
+      "description": "A vote in the Security Council chamber, New York (date and resolution not recorded).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E58", "year": "2025", "date": "Date not recorded",
+      "original": "PRESIDENT OF UN/images.jpg",
+      "filename": "owner_2025_pakistan_seat_security_council.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Pakistan's representative speaks from Pakistan's seat at the Security Council table (date not recorded).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E59", "year": "2024", "date": "2024-10-15",
+      "original": "sco/SCO 2.jpg",
+      "filename": "owner_2024_sco_heads_of_government_islamabad.jpg",
+      "image_type": "A — HERO",
+      "description": "Twenty-third Meeting of the Council of Heads of Government of the SCO Member States, Islamabad, 15–16 October 2024 (as the screen behind the table reads).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E59", "year": "2024", "date": "Date not recorded",
+      "original": "sco/SCO 1.jpg",
+      "filename": "owner_2024_shehbaz_sharif_receives_li_qiang.jpg",
+      "image_type": "B — ARCHIVE",
+      "description": "Prime Minister Shehbaz Sharif receives Chinese Premier Li Qiang on arrival (date not recorded; credit line on the image: Pakistan's Prime Minister Office/AFP).",
+      "historical_authenticity": "ORIGINAL NEWS PHOTOGRAPH"
+    },
+    {
+      "event_id": "E36", "year": "1998", "date": "Not identified",
+      "original": "nuclear test/nuclear test mountain.jpeg",
+      "filename": "owner_desert_mountains_unidentified.jpg",
+      "image_type": "E — CONTEXT",
+      "description": "Dark mountains above a desert plain. Location not identified — not confirmed as the Ras Koh hills at Chagai.",
+      "historical_authenticity": "PHOTOGRAPH (LOCATION UNIDENTIFIED)",
+      "license_status": "VERIFY — location not identified; source not recorded"
+    }
+  ]
+}

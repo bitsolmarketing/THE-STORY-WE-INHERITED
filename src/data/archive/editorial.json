@@ -1,0 +1,51 @@
+[
+  {
+    "id": "doc-indian-independence-act-1947",
+    "type": "document",
+    "title": "Indian Independence Act 1947",
+    "year": 1947,
+    "date": "1947-07-18",
+    "source": "Parliament of the United Kingdom",
+    "url": "https://www.legislation.gov.uk/ukpga/1947/30/contents/enacted",
+    "license": "Crown copyright — Open Government Licence v3.0 (text)",
+    "description": "An Act of the Parliament of the United Kingdom providing for the setting up of two independent Dominions, India and Pakistan, from 15 August 1947. Royal Assent 18 July 1947.",
+    "eventIds": ["E01"],
+    "tags": ["legislation", "partition"],
+    "rights": { "status": "clear", "statement": "CLEAR (Open Government Licence v3, attribution)" },
+    "authenticity": "ORIGINAL DOCUMENT (text record)",
+    "materialClass": "historical",
+    "provenance": { "status": "verified", "note": "Statute text and date confirmed against legislation.gov.uk.", "capturedAt": "2026-10-03" }
+  },
+  {
+    "id": "doc-three-june-plan-1947",
+    "type": "document",
+    "title": "Statement of 3 June 1947 (the \"3 June Plan\")",
+    "year": 1947,
+    "date": "1947-06-03",
+    "source": "His Majesty's Government; broadcast from New Delhi by the Viceroy, Lord Mountbatten",
+    "license": "Crown copyright (expired for text published 1947)",
+    "description": "The statement setting out the method by which British India would be partitioned and power transferred, including the provision for boundary commissions in the Punjab and Bengal.",
+    "eventIds": ["E01"],
+    "tags": ["partition", "plan"],
+    "rights": { "status": "likely-clear", "statement": "LIKELY CLEAR (Crown copyright expired for 1947 text)" },
+    "authenticity": "ORIGINAL DOCUMENT (text record)",
+    "materialClass": "historical",
+    "provenance": { "status": "unverified", "note": "Date and substance are well established; a canonical archival URL (e.g. UK National Archives or Hansard) should be attached by the data owner.", "capturedAt": "2026-10-03" }
+  },
+  {
+    "id": "doc-radcliffe-award-punjab-1947",
+    "type": "document",
+    "title": "Report of the Punjab Boundary Commission (the Radcliffe Award)",
+    "year": 1947,
+    "date": "1947-08-17",
+    "source": "Punjab Boundary Commission, chaired by Sir Cyril Radcliffe",
+    "license": "Public record",
+    "description": "The award fixing the boundary between East and West Punjab, published on 17 August 1947, two days after independence. A companion award partitioned Bengal.",
+    "eventIds": ["E01", "E02"],
+    "tags": ["boundary", "radcliffe"],
+    "rights": { "status": "likely-clear", "statement": "LIKELY CLEAR (public record, 1947)" },
+    "authenticity": "ORIGINAL DOCUMENT (text record)",
+    "materialClass": "historical",
+    "provenance": { "status": "unverified", "note": "Publication date confirmed; attach repository reference (UK National Archives / National Archives of India / Pakistan National Archives).", "capturedAt": "2026-10-03" }
+  }
+]

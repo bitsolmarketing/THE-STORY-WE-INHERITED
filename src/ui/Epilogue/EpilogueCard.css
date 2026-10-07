@@ -1,0 +1,58 @@
+.epilogue {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 var(--edge);
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.epilogue__label {
+  margin: 0 0 28px;
+}
+
+.epilogue__line {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(34px, 4.6vw, 72px);
+  line-height: 1.12;
+  color: var(--ink);
+  opacity: 0;
+  will-change: opacity, transform;
+}
+
+.epilogue__line + .epilogue__line {
+  font-style: italic;
+  color: var(--olive);
+}
+
+.epilogue__actions {
+  margin-top: 44px;
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  opacity: 0;
+  color: var(--brass);
+}
+
+.epilogue__actions button {
+  color: var(--ink-soft);
+  border-bottom: 1px solid color-mix(in srgb, var(--brass) 55%, transparent);
+  padding-bottom: 3px;
+}
+
+.epilogue__actions button:hover {
+  color: var(--ink);
+}
+
+.epilogue__credit {
+  margin-top: 40px;
+  font-size: 9.5px;
+  color: var(--ink-faint);
+  transition: opacity var(--dur-slow) var(--ease-out);
+}

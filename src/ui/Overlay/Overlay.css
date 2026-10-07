@@ -1,0 +1,141 @@
+body.overlay-open {
+  overflow: hidden;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-overlay);
+  display: flex;
+  flex-direction: column;
+  color: var(--ink);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--soft-white) 98.5%, transparent), color-mix(in srgb, var(--ivory) 99%, transparent) 40%, color-mix(in srgb, var(--parchment) 99%, transparent));
+  animation: overlay-in 520ms var(--ease-out) both;
+}
+
+/* Paper: the same grain as the film, plus a ruled margin like an archive ledger. */
+.overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: var(--grain-url);
+  background-size: 256px 256px;
+  mix-blend-mode: multiply;
+  opacity: 0.22;
+}
+
+.overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--edge) + 0px);
+  width: 1px;
+  background: color-mix(in srgb, var(--brass) 28%, transparent);
+  pointer-events: none;
+}
+
+@keyframes overlay-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.overlay__bar {
+  position: relative;
+  z-index: 1;
+  height: var(--top-h);
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--edge) 0 calc(var(--edge) + 22px);
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 10%, transparent);
+}
+
+.overlay__kicker {
+  font-size: 10px;
+  color: var(--ink-soft);
+}
+
+.overlay__brand {
+  color: var(--ink);
+  letter-spacing: 0.34em;
+}
+
+.overlay__close {
+  font-size: 10.5px;
+  color: var(--ink);
+  display: inline-flex;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.overlay__close:hover {
+  color: var(--olive);
+}
+
+.overlay__body {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: clamp(28px, 5vh, 64px) var(--edge) 80px calc(var(--edge) + 22px);
+}
+
+.overlay__body > * {
+  max-width: 1180px;
+}
+
+.overlay__body.is-wide > * {
+  max-width: none;
+}
+
+/* Shared editorial primitives for secondary pages. */
+.page-kicker {
+  margin: 0 0 14px;
+}
+
+.page-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(44px, 6vw, 92px);
+  line-height: 0.98;
+  letter-spacing: -0.005em;
+}
+
+.page-title em {
+  color: var(--olive);
+}
+
+.page-lede {
+  margin: 22px 0 0;
+  max-width: 62ch;
+  font-size: clamp(15px, 1.2vw, 18px);
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.rule {
+  height: 1px;
+  border: 0;
+  margin: 40px 0;
+  background: color-mix(in srgb, var(--brass) 40%, transparent);
+}
+
+.mono-meta {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay {
+    animation: none;
+  }
+}

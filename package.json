@@ -1,0 +1,47 @@
+{
+  "name": "pakistan-the-story-we-inherited",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Interactive cinematic documentary — 1947 to 2026, paced as a two-minute judges' cut",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.app.json --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.app.json --noEmit",
+    "test": "vitest run",
+    "build:geo": "node scripts/build-geo.mjs",
+    "import:archive": "node scripts/import-archive.mjs",
+    "enhance:archive": "node scripts/enhance-archive.mjs",
+    "optimize:assets": "node scripts/import-archive.mjs",
+    "verify": "node e2e/verify.mjs"
+  },
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "three": "^0.186.1",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "@types/topojson-client": "^3.1.5",
+    "@vitejs/plugin-react": "^6.1.1",
+    "d3-geo": "^3.1.1",
+    "playwright": "^1.63.0",
+    "sharp": "^0.35.5",
+    "topojson-client": "^3.1.0",
+    "typescript": "^5.9.0",
+    "vite": "^8.3.2",
+    "vitest": "^5.0.3",
+    "world-atlas": "^2.0.2"
+  }
+}

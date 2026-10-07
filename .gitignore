@@ -1,0 +1,10 @@
+node_modules
+dist
+e2e/out
+.cache
+*.log
+.DS_Store
+scripts/.tmp
+# Full-resolution archive originals and restored masters (~1 GB) stay local; public/ holds the web sizes.
+assets-src
+.claude/settings.local.json

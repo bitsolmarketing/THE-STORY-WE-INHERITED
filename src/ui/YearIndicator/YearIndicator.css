@@ -1,0 +1,72 @@
+/* The year is the dominant typographic element (spec §04): set like a date stamp, lower right. */
+.year-stamp {
+  position: absolute;
+  right: calc(var(--edge) + 4px);
+  bottom: calc(var(--bar-h) + 18px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  pointer-events: none;
+  will-change: opacity;
+  transition: transform var(--dur-slow) var(--ease-out);
+}
+
+.year-stamp.is-waiting {
+  transform: translateY(12px);
+}
+
+.year-stamp__movement {
+  margin: 0 0 4px;
+  display: flex;
+  gap: 0.9em;
+  font-size: 10px;
+  color: color-mix(in srgb, var(--ui-ink) 58%, transparent);
+}
+
+.year-stamp__numeral {
+  color: var(--brass);
+}
+
+.year-stamp__wheels {
+  display: flex;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--fs-year);
+  line-height: 1;
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: -0.015em;
+  color: var(--ui-ink);
+  text-shadow:
+    0 1px 0 color-mix(in srgb, var(--soft-white) calc((1 - var(--tone)) * 75%), transparent),
+    0 0 18px color-mix(in srgb, var(--ivory) calc((1 - var(--tone)) * 55%), transparent);
+}
+
+.year-stamp__window {
+  display: inline-block;
+  height: 1em;
+  overflow: hidden;
+  /* Type-wheel: digits fade as they roll over the top and bottom edge. */
+  mask-image: linear-gradient(to bottom, transparent 0, #000 14%, #000 86%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 14%, #000 86%, transparent 100%);
+}
+
+.year-stamp__strip {
+  display: flex;
+  flex-direction: column;
+  will-change: transform;
+}
+
+.year-stamp__digit {
+  display: block;
+  height: 1em;
+  line-height: 1;
+  text-align: center;
+  width: 0.56em;
+}
+
+@media (max-width: 720px) {
+  .year-stamp {
+    bottom: auto;
+    top: calc(var(--top-h) + 8px);
+  }
+}

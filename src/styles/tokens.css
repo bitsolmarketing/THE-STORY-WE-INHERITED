@@ -1,0 +1,54 @@
+:root {
+  /* Palette — spec §03. Use these variables; never introduce new hues. */
+  --ivory: #f5f1e8;
+  --parchment: #e8ddca;
+  --sandstone: #d4c5ad;
+  --taupe: #b8a88f;
+  --olive: #3e604f;
+  --sage: #8fa294;
+  --soft-white: #fcfaf5;
+  --charcoal: #3c3b36;
+  --brass: #a88b57;
+
+  /* Derived, low-contrast ink tones for text on paper. */
+  --ink: #3c3b36;
+  --ink-soft: rgba(60, 59, 54, 0.72);
+  --ink-faint: rgba(60, 59, 54, 0.42);
+  --hairline: rgba(168, 139, 87, 0.55);
+
+  /* Type — spec §04 */
+  --font-display: 'Cormorant Garamond', 'Cormorant', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Scale */
+  --fs-year: clamp(64px, 7.4vw, 132px);
+  --fs-title: clamp(30px, 3.4vw, 50px);
+  --fs-line: clamp(14px, 1.05vw, 17px);
+  --fs-label: 11px;
+  --fs-ui: 12px;
+
+  --tracking-label: 0.22em;
+  --tracking-ui: 0.16em;
+
+  /* Spacing */
+  --edge: clamp(20px, 3.2vw, 48px);
+  /* Shell bars (top: identity + menu; bottom: scroll cue, Judges' Cut player, archive, sound). */
+  --top-h: clamp(58px, 6vw, 76px);
+  --bar-h: 54px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-slow: 900ms;
+  --dur-med: 480ms;
+  --dur-fast: 220ms;
+
+  /* Layers */
+  --z-stage: 0;
+  --z-ui: 10;
+  --z-archive: 20;
+  --z-overlay: 22;
+  --z-intro: 26;
+  --z-loader: 30;
+}

@@ -1,0 +1,154 @@
+.rail {
+  position: absolute;
+  right: calc(var(--edge) + 2px);
+  top: calc(var(--top-h) + 30px);
+  bottom: calc(var(--bar-h) + var(--fs-year) + 70px);
+  width: 70px;
+  opacity: 0;
+  transition: opacity var(--dur-slow) var(--ease-out);
+}
+
+.rail.is-in {
+  opacity: calc(0.5 + 0.5 * var(--chrome, 1));
+}
+
+.rail:hover {
+  opacity: 1;
+}
+
+.rail__track {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 22px;
+  cursor: pointer;
+}
+
+/* A miniature railway line: two rails and sleepers, the film's length from 1947 to 2026. */
+.rail__line {
+  position: absolute;
+  right: 7px;
+  top: 0;
+  bottom: 0;
+  width: 7px;
+  border-left: 1px solid color-mix(in srgb, var(--ui-ink) 34%, transparent);
+  border-right: 1px solid color-mix(in srgb, var(--ui-ink) 34%, transparent);
+  background: repeating-linear-gradient(
+    180deg,
+    transparent 0 5px,
+    color-mix(in srgb, var(--taupe) 70%, transparent) 5px 6.5px
+  );
+  box-sizing: border-box;
+}
+
+.rail__line::before {
+  /* Sleepers overhang the rails a little, as on the real permanent way. */
+  content: '';
+  position: absolute;
+  inset: 0 -3px;
+  background: inherit;
+  opacity: 0.55;
+}
+
+/* Stations along the line: every chapter is a halt, major ones in brass. */
+.rail__dot {
+  position: absolute;
+  right: 15px;
+  width: 3px;
+  height: 3px;
+  margin-top: -1.5px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--ui-ink) 40%, transparent);
+}
+
+.rail__dot--featured {
+  right: 14.5px;
+  width: 4px;
+  height: 4px;
+  margin-top: -2px;
+}
+
+.rail__dot--major {
+  right: 14px;
+  width: 5px;
+  height: 5px;
+  margin-top: -2.5px;
+  background: var(--brass);
+}
+
+/* The train on the line: a locomotive and one coach, chimney first, heading down the years. */
+.rail__needle {
+  position: absolute;
+  right: 4px;
+  top: 0;
+  width: 13px;
+  height: 30px;
+  margin-top: -27px;
+  pointer-events: none;
+  filter: drop-shadow(0 1px 1px color-mix(in srgb, var(--charcoal) 30%, transparent));
+}
+
+.rail__needle svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.rail__decades {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 28px;
+  top: 0;
+  bottom: 0;
+}
+
+.rail__decades li {
+  position: absolute;
+  right: 0;
+  translate: 0 -50%;
+}
+
+.rail__decade {
+  font-size: 9.5px;
+  color: color-mix(in srgb, var(--ui-ink) 42%, transparent);
+  padding: 2px 0;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+
+.rail__decade:hover,
+.rail__decade:focus-visible {
+  color: var(--ui-ink);
+}
+
+.rail__tip {
+  position: absolute;
+  right: 30px;
+  translate: 0 -50%;
+  white-space: nowrap;
+  font-size: 10px;
+  color: var(--ui-ink);
+  background: color-mix(in srgb, var(--ivory) 92%, transparent);
+  padding: 4px 8px;
+  border-left: 1px solid var(--brass);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.rail__tip-year {
+  color: var(--brass);
+  margin-right: 8px;
+}
+
+@media (max-width: 720px) {
+  .rail {
+    right: 6px;
+    top: calc(var(--top-h) + var(--fs-year) + 60px);
+    bottom: calc(var(--bar-h) + 200px);
+  }
+  .rail__decades {
+    display: none;
+  }
+}

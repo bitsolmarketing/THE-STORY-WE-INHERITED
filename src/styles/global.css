@@ -1,0 +1,140 @@
+@import './tokens.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--ivory);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: auto;
+  overscroll-behavior-y: none;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body.archive-open {
+  overflow: hidden;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 1px solid var(--brass);
+  outline-offset: 4px;
+}
+
+/* The tall, invisible track that gives the document its scroll length. */
+#scroll-track {
+  position: relative;
+  width: 100%;
+  pointer-events: none;
+}
+
+/* Fixed cinematic stage: the canvas never scrolls. */
+.stage {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-stage);
+  background: var(--ivory);
+}
+
+.stage canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Fixed UI layer above the stage. Only controls opt back into pointer events (see ui/ui.css). */
+.ui-layer {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-ui);
+  pointer-events: none;
+}
+
+/* Film-grain veil: one tiny tiled texture, multiply, very low opacity. Set by JS as a data URL. */
+.grain-veil {
+  position: fixed;
+  inset: 0;
+  z-index: calc(var(--z-ui) - 1);
+  pointer-events: none;
+  opacity: 0.16;
+  mix-blend-mode: multiply;
+  background-repeat: repeat;
+  background-size: 256px 256px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Editorial text primitives shared by UI modules. */
+.t-label {
+  font-family: var(--font-mono);
+  font-size: var(--fs-label);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--brass);
+}
+
+.t-ui {
+  font-family: var(--font-mono);
+  font-size: var(--fs-ui);
+  letter-spacing: var(--tracking-ui);
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.t-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--fs-title);
+  line-height: 1.05;
+  letter-spacing: 0.005em;
+  color: var(--ink);
+}
+
+.t-line {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--fs-line);
+  line-height: 1.5;
+  color: var(--ink-soft);
+  max-width: 44ch;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

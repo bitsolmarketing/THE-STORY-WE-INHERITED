@@ -1,0 +1,29 @@
+.ui-layer {
+  --tone: 1;
+  --chrome: 1;
+  /* Ink on paper, or soft white on the prologue's dark paper. */
+  --ui-ink: color-mix(in srgb, var(--soft-white) calc(var(--tone) * 100%), var(--ink));
+}
+
+/* Children are positioned absolutely inside the fixed layer; only controls take pointer events. */
+.ui-layer > * {
+  pointer-events: none;
+}
+
+.ui-layer button,
+.ui-layer nav,
+.ui-layer .rail__track,
+.ui-layer .player {
+  pointer-events: auto;
+}
+
+.paper-veil {
+  position: fixed;
+  inset: 0;
+  z-index: calc(var(--z-ui) - 2);
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  background: radial-gradient(120% 90% at 50% 45%, var(--soft-white) 0%, var(--ivory) 45%, var(--parchment) 100%);
+  will-change: opacity;
+}

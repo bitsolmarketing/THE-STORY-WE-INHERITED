@@ -1,0 +1,128 @@
+[
+  {
+    "id": "src-storyboard",
+    "title": "Pakistan — The Story We Inherited: Final Revised Chronological Storyboard (1947–2026)",
+    "publisher": "Project team",
+    "year": 2026,
+    "note": "Source of truth for the sequence, titles and lines of all 56 beats (docs/STORYBOARD_FINAL.pdf)."
+  },
+  {
+    "id": "src-visual-archive",
+    "title": "Pakistan Visual Archive — Final (267 catalogued images, 56 beats)",
+    "publisher": "Project research archive, 3 October 2026",
+    "year": 2026,
+    "note": "Per-image source URL, creator, date, licence, rights status and authenticity class (docs/archive/MASTER_IMAGE_MANIFEST.csv). Items marked VERIFY BEFORE PUBLIC USE are not shown in the film."
+  },
+  {
+    "id": "src-legislation-gov-uk-1947-30",
+    "title": "Indian Independence Act 1947 (c. 30)",
+    "publisher": "legislation.gov.uk, The National Archives (UK)",
+    "year": 1947,
+    "url": "https://www.legislation.gov.uk/ukpga/1947/30/contents/enacted",
+    "note": "Primary legal text for the creation of the Dominions of India and Pakistan.",
+    "eventIds": ["E01"]
+  },
+  {
+    "id": "src-natural-earth",
+    "title": "Natural Earth — Admin 0 Countries and Land (1:50m)",
+    "publisher": "Natural Earth (public domain), via the world-atlas package",
+    "url": "https://www.naturalearthdata.com/",
+    "note": "Coastlines and boundaries used to draw the film's maps. Modern boundaries approximate the 1947 awards in the Punjab and Bengal; no boundary is drawn through Jammu & Kashmir. River courses in the 1960 and flood frames are schematic.",
+    "eventIds": ["E01", "E08", "E18"]
+  },
+  {
+    "id": "src-mofa-unsc-presidency-jul2025",
+    "title": "Pakistan assumes Presidency of the United Nations Security Council for the month of July 2025",
+    "publisher": "Ministry of Foreign Affairs, Pakistan",
+    "year": 2025,
+    "url": "https://mofa.gov.pk/press-releases/pakistan-assumes-presidency-of-the-united-nations-security-council-for-the-month-of-july-2025",
+    "eventIds": ["E58"]
+  },
+  {
+    "id": "src-un-res-2788-2025",
+    "title": "Security Council resolution 2788 (2025) [on strengthening mechanisms for the peaceful settlement of disputes]",
+    "publisher": "United Nations Digital Library",
+    "year": 2025,
+    "url": "https://digitallibrary.un.org/record/4085720",
+    "note": "Adopted 22 July 2025 under Pakistan's presidency; 15 votes in favour, none against, no abstentions.",
+    "eventIds": ["E58"]
+  },
+  {
+    "id": "src-mofa-sco-rats-2025",
+    "title": "Pakistan assumes Chair of SCO-RATS 2025-26",
+    "publisher": "Ministry of Foreign Affairs, Pakistan",
+    "year": 2025,
+    "url": "https://mofa.gov.pk/press-releases/pakistan-assumes-chair-of-sco-rats-2025-26",
+    "note": "Announced 10 September 2025, after the 44th RATS Council meeting in Cholpon-Ata, Kyrgyzstan.",
+    "eventIds": ["E59"]
+  },
+  {
+    "id": "src-thenews-nec-adp-2025",
+    "title": "Total national uplift outlay of Rs4.224tr approved",
+    "publisher": "The News International",
+    "year": 2025,
+    "url": "https://www.thenews.com.pk/print/1318662-total-national-uplift-outlay-of-rs4-224tr-approved",
+    "note": "NEC, chaired by the Prime Minister: federal PSDP Rs 1,000 billion; provincial development Rs 2,869 billion; URAAN Pakistan framework approved.",
+    "eventIds": ["E60"]
+  },
+  {
+    "id": "src-aljazeera-mecca-defence-2026",
+    "title": "Saudi Arabia, Pakistan and Turkiye sign defence deal amid regional turmoil",
+    "publisher": "Al Jazeera",
+    "year": 2026,
+    "url": "https://www.aljazeera.com/news/2026/8/7/saudi-%E2%81%A0arabia-pakistan-and-turkiye-sign-defence-deal-amid-regional-turmoil",
+    "note": "Signed in Mecca on 7 August 2026 by President Erdogan, Crown Prince Mohammed bin Salman and Prime Minister Shehbaz Sharif; an armed attack on any one of the three is to be treated as an attack on all.",
+    "eventIds": ["E61"]
+  },
+  {
+    "id": "src-mee-mecca-defence-2026",
+    "title": "Turkey, Saudi Arabia and Pakistan sign defence pact",
+    "publisher": "Middle East Eye",
+    "year": 2026,
+    "url": "https://www.middleeasteye.net/news/turkey-saudi-arabia-pakistan-sign-defence-pact-sources-say",
+    "note": "Joint ceremony in Mecca, Friday 7 August 2026.",
+    "eventIds": ["E61"]
+  },
+  {
+    "id": "src-wiki-smda-2025",
+    "title": "Strategic Mutual Defence Agreement",
+    "publisher": "Wikipedia",
+    "year": 2026,
+    "url": "https://en.wikipedia.org/wiki/Strategic_Mutual_Defence_Agreement",
+    "note": "Saudi–Pakistan agreement signed 17 September 2025 at Al-Yamamah Palace, Riyadh; Turkey's accession discussed from January 2026; trilateral Mecca Joint Defence Agreement, August 2026.",
+    "eventIds": ["E61"]
+  },
+  {
+    "id": "src-mofa-islamabad-talks-2026",
+    "title": "Remarks by the DPM/FM at the conclusion of the Islamabad Talks",
+    "publisher": "Ministry of Foreign Affairs, Pakistan",
+    "year": 2026,
+    "url": "https://mofa.gov.pk/press-releases/remarks-by-the-dpmfm-at-the-conclusion-of-the-islamabad-talks",
+    "note": "Pakistan hosted and moderated the April 2026 Islamabad Talks. Qatar, Saudi Arabia, Turkey and Egypt are also reported as facilitators.",
+    "eventIds": ["E55"]
+  },
+  {
+    "id": "src-thenews-islamabad-mou-2026",
+    "title": "Mediator Pakistan urges all sides to exercise restraint, uphold Islamabad MoU commitments",
+    "publisher": "The News",
+    "year": 2026,
+    "url": "https://www.thenews.pk/story/1424770-mediator-pakistan-urges-all-sides-to-exercise-restraint-uphold-islamabad-mou-commitments",
+    "note": "June 2026 Islamabad Memorandum of Understanding extending the ceasefire framework.",
+    "eventIds": ["E55"]
+  },
+  {
+    "id": "src-al-monitor-2026",
+    "title": "Pakistan urges all sides uphold commitments under Islamabad MoU",
+    "publisher": "Al-Monitor",
+    "year": 2026,
+    "url": "https://www.al-monitor.com/originals/2026/07/pakistan-urges-all-sides-uphold-commitments-under-islamabad-mou",
+    "note": "Independent analysis describing Pakistan as mediator / facilitator.",
+    "eventIds": ["E55"]
+  },
+  {
+    "id": "src-archives-to-contact",
+    "title": "Archives to contact for gaps",
+    "publisher": "Project research archive",
+    "note": "National Archives of Pakistan; Press Information Department; Dawn / Herald Publications; World Bank Group Archives (Indus Waters Treaty, Mangla, Tarbela); WAPDA; SUPARCO (Rehbar-I); Pakistan Hockey Federation / FIH / LA84; Citizens Archive of Pakistan; Imperial War Museums / British Library."
+  }
+]
